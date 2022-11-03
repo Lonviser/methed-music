@@ -1,0 +1,7 @@
+@import 'fonts.css ';
+@import 'default.css';
+@import 'normalize.css';
+.track__poster{
+    width: 180px;
+    height: 180px;
+}
