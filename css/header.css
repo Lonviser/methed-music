@@ -1,0 +1,25 @@
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.header__container{
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+}
+
+.header__logo{
+    margin-right: 94px;
+}
+
+.header__search{
+    flex-grow: 1;
+    margin-right: auto;
+}
+
+.header__favorite-btn{
+    line-height: 0;
+}
