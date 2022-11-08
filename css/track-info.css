@@ -1,0 +1,17 @@
+.track__info{
+    border-color: #fff;
+    border-radius: 0px 0px 12px 12px ;
+    text-align: left;
+    padding: 14px 8px;
+}
+
+.track-info__title{
+    font-weight: 600;
+    margin-bottom: 6px;
+
+}
+
+.track-info__artist{
+    font-weight: 300;
+    font-size: 14px;
+}
