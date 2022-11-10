@@ -1,0 +1,74 @@
+.player{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: -100%;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    max-width: 1228px;
+    margin: 0 auto;
+    transition: bottom .5s ease;
+    padding: 24px;
+}
+.player_active{
+    bottom:26px;
+}
+
+.player__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.player__controller{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+
+.player__icon{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.player__icon_stop{
+    background-image:url('../img/stop.svg');
+}
+
+.player__icon_prev{
+    background-image:url('../img/prev.svg');
+}
+
+.player__icon_pause{
+    background-image:url('../img/Pause.svg');
+}
+.player__icon_next{
+    background-image:url('../img/next.svg');
+}
+
+.player__icon_like{
+    background-image:url('../img/like.svg');
+}
+
+.player__progress_wrap{
+    display: flex;
+    align-items:center;
+    gap: 16px;
+    padding: 9px;
+}
+
+.player__progress{
+    flex-grow: 1;
+    max-width:487px ;
+
+}
+
+.player__progress-input{
+    width: 100%;
+}
