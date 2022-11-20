@@ -164,7 +164,7 @@
     <section class="player player_active">
         <h2 class="visually-hidden">Плеер</h2>
         <div class="player__container">
-            <div class="player__track-info track-info" >
+            <div class="player__track-info track-info track-info_mobile-center" >
                 <p class="track-info__title">Frozen</p>
                 <p class="track-info__artist">Madonna</p>
             </div>
@@ -187,8 +187,9 @@
                 </p>
             </div>
             <div class="player__volume-wrap">
-                <div class="player__volume"></div>
-                <input  class="player__volume-input" type="range" min="0%" max="100%" value="100%">
+                <div class="player__volume">
+                    <input  class="player__volume-input" type="range" min="0%" max="100%" value="100%">
+                </div>
                 <button class="player__icon player__icon_mute"></button>
             </div>
         </div>

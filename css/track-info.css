@@ -15,3 +15,31 @@
     font-weight: 300;
     font-size: 14px;
 }
+
+@media(max-width:560px){
+
+    .track-info__artist{
+        font-weight: 300;
+        font-size: 14px;
+    }
+
+    .track{
+        padding: 3px;
+        border-width: 1px;
+        border-radius:14px;
+    }
+    .track__poster {
+        height: 140px;
+    }
+    .track__info{
+    padding: 8px;
+    }
+    .track-info__artist{
+        font-size: 12px;
+    }
+
+    .track-info__title{
+        margin-bottom: 4px;
+    }
+
+}
